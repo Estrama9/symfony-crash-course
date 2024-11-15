@@ -1,0 +1,12 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+# Guest entering the front door("/"), encontering the waiter("HomeController"),
+# that greets ("index") the coustumer and present ("new Response") them the menu
+
+# home:
+#     path: /
+#         controller: App\Controller\HomeController\::index
